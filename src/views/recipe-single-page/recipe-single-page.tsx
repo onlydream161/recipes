@@ -8,21 +8,6 @@ import ServiceIcon from '@/shared/assets/common/service-icon.svg?react'
 export const RecipeSinglePage = () => {
   const params = useParams()
   const { data: recipe, isLoading } = useGetSingleRecipe(Number(params.id), { enabled: !!params.id })
-  const recipeOption = [
-    {
-      id: 1,
-      icon: <TimeIcon />,
-      title: recipe?.preparationMinutes ? `${recipe?.preparationMinutes} min` : '',
-    },
-    {
-      id: 2,
-      icon: <HardIcon />,
-    },
-    {
-      id: 3,
-      icon: <ServiceIcon />,
-    },
-  ]
 
   return (
     <div className='flex flex-col items-center border border-gray rounded-[30px] my-5 p-5'>
