@@ -1,30 +1,26 @@
 # React + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Используемые технологии:
 
-Currently, two official plugins are available:
+1. React query
+2. стм Jotai
+3. eslint
+4. prettier
+5. tailwind
+6. ant design
+7. React hook form
+8. axios
+9. Type Script
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# По функционалу :
 
-## Expanding the ESLint configuration
+1. Главная страница с предлагаеммыми рандомными рецептами и табами по странам
+2. каркас внутренней страницы рецепта
+3. интеграция с api
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+# Что будет реальзовано :
 
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+1. доделать страницы одного рецепта
+2. реализовать страницу поиска рецептов с блоком фильтров
+3. реализация формы подписки
+4. реализация страницы контроля КБЖУ
